@@ -5,11 +5,14 @@ int main() {
     char operasi;
     double angka1, angka2;
 
-    cout << "Masukkan operasi (+, -, *, /): ";
+    cout << "Pilih operasi (+, -, *, /): ";
     cin >> operasi;
 
-    cout << "Masukkan dua angka: ";
-    cin >> angka1 >> angka2;
+    cout << "Masukkan angka pertama: ";
+    cin >> angka1;
+    
+    cout << "Masukkan angka kedua: ";
+    cin >> angka2;
 
     switch(operasi) {
         case '+':
